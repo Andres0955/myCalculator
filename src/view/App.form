@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.App">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="10" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="424"/>
+    </constraints>
+    <properties>
+      <background color="-15395563"/>
+      <preferredSize width="400" height="550"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="78ca2" class="javax.swing.JTextField" binding="txtDisplay">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15395563"/>
+          <font name="Times New Roman" size="30" style="1"/>
+          <foreground color="-6908266"/>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="e6fe5" class="javax.swing.JButton" binding="btnPercentage">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="5fe03" class="javax.swing.JButton" binding="btnClearE">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-42663"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-13355980"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="CE"/>
+        </properties>
+      </component>
+      <component id="3dc28" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-42663"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-13355980"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="31c91" class="javax.swing.JButton" binding="btnDelete">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-42663"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-13355980"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="⌫"/>
+        </properties>
+      </component>
+      <component id="240a2" class="javax.swing.JButton" binding="btnEqual">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10027137"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-13355980"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="3d93a" class="javax.swing.JButton" binding="btnFractionNumerator1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="1/x"/>
+        </properties>
+      </component>
+      <component id="85c7f" class="javax.swing.JButton" binding="btnSeven">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="415c8" class="javax.swing.JButton" binding="btnFour">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="5be62" class="javax.swing.JButton" binding="btnOne">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="842c" class="javax.swing.JButton" binding="btnNegative">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="1e7cd" class="javax.swing.JButton" binding="btnTwo">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="d122c" class="javax.swing.JButton" binding="btnZero">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="da2b0" class="javax.swing.JButton" binding="btnPoint">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="40af0" class="javax.swing.JButton" binding="btnThree">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="d7123" class="javax.swing.JButton" binding="btnSix">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="28150" class="javax.swing.JButton" binding="btnAddition">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="ba48c" class="javax.swing.JButton" binding="btnSubtraction">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="a21" class="javax.swing.JButton" binding="btnMultiplication">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="×"/>
+        </properties>
+      </component>
+      <component id="72629" class="javax.swing.JButton" binding="btnNine">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="ece32" class="javax.swing.JButton" binding="btnSquareRoot">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="√x"/>
+        </properties>
+      </component>
+      <component id="cf4a8" class="javax.swing.JButton" binding="btnDivision">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="6ca4d" class="javax.swing.JButton" binding="btnSquared">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="x^2"/>
+        </properties>
+      </component>
+      <component id="fce35" class="javax.swing.JButton" binding="btnEight">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="c9aa1" class="javax.swing.JButton" binding="btnFive">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13355980"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-10027137"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <multiClickThreshhold value="7"/>
+          <text value="5"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
